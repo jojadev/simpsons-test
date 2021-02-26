@@ -1,4 +1,4 @@
-name = input("Who is your favourite Simpson household member? ")
+name = input("Who is your favourite Simpson household member? ").capitalize()
 if name == 'Homer': 
   print("You the man Homer!")
 elif name == 'Marge': 
